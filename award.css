@@ -1,0 +1,45 @@
+/* A real portrait paper, scaled as one piece on screen. */
+.award .award-layout{grid-template-columns:minmax(0,1fr) minmax(230px,.48fr);gap:32px;height:100%;min-height:0}
+.certificate-stage{position:relative;height:100%;min-height:0;min-width:0}
+.award .portrait-certificate{position:absolute;top:50%;left:50%;width:794px;height:1123px;max-width:none;box-sizing:border-box;transform:translate(-50%,-50%) scale(var(--cert-scale,.5));transform-origin:center;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;gap:0;padding:44px 58px 36px;border:8px solid #193c45;outline:0;border-radius:22px;background:radial-gradient(circle at 20% 25%,#ffeeae66,transparent 33%),radial-gradient(circle at 90% 70%,#b7f5e366,transparent 35%),#fffef7;box-shadow:10px 12px 0 #173c4520;text-align:center;isolation:isolate}
+.portrait-certificate:before{content:"";position:absolute;inset:13px;border:3px solid #53cbbb;border-radius:10px;pointer-events:none;z-index:-1}
+.portrait-certificate .certificate-kicker{color:#187e78;font:700 18px/1.3 "Comic Sans MS",sans-serif;letter-spacing:5px;margin:0 0 18px}
+.super-medal{width:112px;height:112px;display:grid;place-items:center;color:#173c45;background:#ffbc53;font-size:78px;line-height:1;clip-path:polygon(50% 0,61% 10%,75% 6%,81% 20%,96% 25%,93% 40%,100% 50%,90% 62%,94% 77%,79% 82%,74% 96%,60% 93%,50% 100%,38% 90%,23% 94%,18% 79%,4% 74%,7% 60%,0 50%,10% 38%,6% 23%,21% 18%,26% 4%,40% 7%);flex-shrink:0;transform:rotate(-8deg)}
+.portrait-certificate h1{font-family:"Comic Sans MS",sans-serif;font-weight:700;letter-spacing:-2px;line-height:1.02;color:#173c45;font-size:64px;margin:18px 0 22px}
+.portrait-certificate h1 span{display:block;font-size:35px;letter-spacing:0;margin-bottom:7px}
+.portrait-certificate h1 strong{font-weight:700;color:#157e77;text-shadow:3px 3px 0 #b9f2e4}
+.cert-name-label{font-size:18px;color:#32656a;margin:0 0 8px;line-height:1.2}
+.portrait-certificate .name{font:700 37px/1.25 "Comic Sans MS",sans-serif;color:#173c45;background:#fff;width:100%;height:68px;padding:8px 12px;margin:0 0 18px;border:2px dashed #42ab9d;border-radius:13px;box-sizing:border-box;outline-offset:4px}
+.portrait-certificate .name::placeholder{color:#769593;font-size:26px;font-weight:400}
+.portrait-certificate .certificate-lead{font-size:26px;line-height:1.2;color:#173c45;margin:0 0 16px;font-weight:700}
+.portrait-certificate .power-list{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:100%;flex:1;min-height:0;font-size:22px;line-height:1.25;margin:0}
+.power-item{display:block;position:relative;padding:3px 11px;border-radius:9px;max-width:100%;box-sizing:border-box}
+.unusual-power{background:#fff0c7;padding-right:38px}
+.power-wow{position:absolute;right:4px;top:50%;transform:translateY(-50%) rotate(10deg);background:#ff806f;color:#173c45;width:25px;height:25px;line-height:25px;border:1px solid #173c45;border-radius:50%;font-size:16px}
+.shock-sticker{position:absolute;right:29px;top:80px;width:145px;height:142px;background:#ff806f;color:#173c45;display:flex;flex-direction:column;justify-content:center;align-items:center;transform:rotate(13deg);clip-path:polygon(50% 0,61% 15%,80% 3%,82% 24%,100% 25%,89% 44%,100% 59%,80% 65%,87% 86%,65% 83%,55% 100%,43% 84%,23% 96%,23% 73%,2% 75%,13% 54%,0 41%,23% 34%,14% 14%,37% 20%)}
+.shock-sticker span{font-size:43px;font-weight:700;line-height:1}.shock-sticker b{font-size:26px;line-height:1.2}
+.portrait-certificate .certificate-bottom{flex-shrink:0;width:100%;margin:22px 0 0;display:flex;flex-direction:column;gap:17px;color:#173c45;font-size:18px;line-height:1.3}
+.cert-signatures{display:flex;align-items:center;justify-content:center;gap:20px;width:100%}.cert-signatures b{color:#ffad3f;font-size:28px}
+.cert-ribbon{font-weight:700;font-size:23px;color:#173c45;background:#a9edda;padding:10px 60px;clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%,5% 50%);letter-spacing:3px}
+.cert-confetti{position:absolute;inset:0;pointer-events:none;z-index:-1}.cert-confetti i{position:absolute;font-style:normal;line-height:1;font-size:68px;color:#ffb44e}.cert-confetti i:nth-child(1){left:27px;top:130px;transform:rotate(-12deg)}.cert-confetti i:nth-child(2){right:29px;bottom:210px;color:#ff806f;transform:rotate(20deg)}.cert-confetti i:nth-child(3){left:23px;bottom:200px;color:#72d7c6;font-size:45px}.cert-confetti i:nth-child(4){right:45px;top:350px;color:#73cfc4;font-size:35px}
+.award .award-side{gap:16px}.award .award-side img{max-height:32vh}.award .award-side h2{font-size:27px}.award-hint{font-size:15px;line-height:1.6;color:#57767b;margin:0}.award .award-controls{gap:14px}.award .award-controls button{font-size:18px}
+@media(max-width:700px){.award .award-layout{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto;gap:12px}.award .award-side{display:block}.award .award-side img,.award .award-side h2,.award .award-hint{display:none}.award .award-controls{flex-direction:row;gap:10px}.award .award-controls button{font-size:13px;padding:9px 13px;min-height:40px}}
+@media(max-height:500px) and (min-width:701px){.award .award-layout{grid-template-columns:minmax(0,1fr) minmax(200px,.5fr)}.award .award-side img{display:none}.award .award-side h2{font-size:22px}.award-hint{font-size:12px}}
+@page{size:A4 portrait;margin:10mm}
+@media print{
+ html,body{width:auto;height:auto;min-height:0;display:block;overflow:visible;background:white;padding:0;margin:0}
+ header,#particles,dialog,.award-side{display:none!important}
+ #app.award{display:block;padding:0;margin:0;border:0;border-radius:0;overflow:visible;height:auto;animation:none}
+ .award .award-layout{display:block;height:auto;margin:0}
+ .certificate-stage{position:static;display:block;width:190mm;height:276mm;margin:0;break-inside:avoid}
+ .award .portrait-certificate{position:relative;left:auto;top:auto;transform:none;width:190mm;height:276mm;border-width:2mm;border-radius:5mm;padding:10mm 13mm 8mm;box-shadow:none;print-color-adjust:exact;-webkit-print-color-adjust:exact;break-inside:avoid}
+ .portrait-certificate .certificate-kicker{font-size:14px;margin-bottom:12px}
+ .super-medal{width:90px;height:90px;font-size:62px}
+ .portrait-certificate h1{font-size:56px;margin:16px 0 20px}.portrait-certificate h1 span{font-size:30px}
+ .cert-name-label{display:none}.portrait-certificate .name{font-size:33px;height:58px;border:0;border-bottom:2px solid #72cbbb;border-radius:0;background:transparent;margin-bottom:16px}.portrait-certificate .name::placeholder{color:transparent}
+ .portrait-certificate .certificate-lead{font-size:23px;margin-bottom:12px}
+ .portrait-certificate .power-list{font-size:20px;gap:4px}
+ .portrait-certificate .certificate-bottom{font-size:16px;margin-top:16px;gap:12px}.cert-ribbon{font-size:20px;padding:8px 45px}
+ .shock-sticker{width:125px;height:125px;right:24px;top:60px}.shock-sticker span{font-size:36px}.shock-sticker b{font-size:23px}
+}
+.portrait-certificate .power-list.dense-powers{font-size:18px;line-height:1.15;gap:2px}.dense-powers .power-item{padding-top:1px;padding-bottom:1px}.dense-powers .power-wow{width:20px;height:20px;line-height:20px;font-size:13px}

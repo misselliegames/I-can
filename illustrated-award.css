@@ -1,0 +1,13 @@
+.award .portrait-certificate{border:0;border-radius:0;background:#fffef7 url('assets/story/certificate-illustrated.webp') center/100% 100% no-repeat;padding:44px 100px 74px;box-shadow:0 10px 30px #173c4520}
+.portrait-certificate:before,.portrait-certificate .cert-confetti{display:none}
+.portrait-certificate .certificate-kicker{position:absolute;top:178px;left:0;right:0;margin:0;color:#196b70;font-size:17px;letter-spacing:4px}
+.portrait-certificate .super-medal{visibility:hidden;margin-top:41px}
+.portrait-certificate .name{background:#ffffffb8}
+.portrait-certificate .certificate-bottom{font-size:16px;gap:12px}.portrait-certificate .cert-signatures{gap:13px}.portrait-certificate .cert-ribbon{background:#a9eddaaa;font-size:20px;padding:8px 38px}
+.portrait-certificate .shock-sticker{right:28px;top:162px;width:124px;height:124px}.portrait-certificate .shock-sticker span{font-size:34px}.portrait-certificate .shock-sticker b{font-size:23px}
+@media print{
+ .award .portrait-certificate{border:0;border-radius:0;padding:10mm 21mm 14mm;background:#fffef7 url('assets/story/certificate-illustrated.webp') center/100% 100% no-repeat;box-shadow:none;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .portrait-certificate .certificate-kicker{top:155px;font-size:14px}.portrait-certificate .super-medal{margin-top:36px}
+ .portrait-certificate .shock-sticker{top:142px;right:24px;width:110px;height:110px}.portrait-certificate .shock-sticker span{font-size:30px}.portrait-certificate .shock-sticker b{font-size:21px}
+ .portrait-certificate .certificate-bottom{font-size:14px;gap:10px}.portrait-certificate .cert-ribbon{font-size:18px;padding:7px 30px}
+}

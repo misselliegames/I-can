@@ -1,0 +1,14 @@
+{
+  "name": "i-can",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node tools/check-site.mjs",
+    "preview": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "sharp": "0.34.5"
+  }
+}

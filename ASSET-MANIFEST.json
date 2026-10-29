@@ -1,0 +1,299 @@
+{
+  "generated": "2026-10-29",
+  "version": 35,
+  "sourceBytes": 91160024,
+  "siteBytes": 7279616,
+  "images": 45,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 2891,
+      "sha256": "c9509200943bdd93eb42102ab5cb0b60d050786bb814e78c05efdbcc6b761012"
+    },
+    {
+      "path": "style.css",
+      "bytes": 35197,
+      "sha256": "54585ba9c9341e13c05832becaba477a8b7d31a1df720a0a1a37b7ac2bf9a30c"
+    },
+    {
+      "path": "award.css",
+      "bytes": 7148,
+      "sha256": "05f9bd383387e5111515439d208bb8cbe3ffa8a317cf578185e046e137953b7c"
+    },
+    {
+      "path": "gallery-practice.css",
+      "bytes": 5329,
+      "sha256": "0c871e554876e091079599325a6149da1b8b0b0550c8aa24b77f98dfc06a2bbe"
+    },
+    {
+      "path": "you.css",
+      "bytes": 3250,
+      "sha256": "22dd0b4920eb96045a1d8892720791981ccf4382fcf8626ac5a84d658842c8aa"
+    },
+    {
+      "path": "illustrated-award.css",
+      "bytes": 1663,
+      "sha256": "27db394f5cc833369d84be88f7f7499dc20f3aee12f79463288d57a1b75cf695"
+    },
+    {
+      "path": "practice-upgrade.css",
+      "bytes": 3988,
+      "sha256": "45dfd2d7c03b521e724ce9a93580151ff41e22873215961ab49cf47ea148a3f2"
+    },
+    {
+      "path": "scenes.js",
+      "bytes": 6565,
+      "sha256": "95e3bc183e91bc8305473e35f1c3477f06ba8a7018d9d4d80f15afb426beab37"
+    },
+    {
+      "path": "word-coverage-planner.js",
+      "bytes": 2354,
+      "sha256": "1ddb7534d31ef0f54f086172e7a7157267cff5027bffda89de5cc256cae69dae"
+    },
+    {
+      "path": "personal-progress.js",
+      "bytes": 2620,
+      "sha256": "080747f5ed19de56ff0d76e6431c336c4b04e000febdb17d3362fba8df721960"
+    },
+    {
+      "path": "app.js",
+      "bytes": 39660,
+      "sha256": "c5b70f48d23c11f3994bc8f7f8ca288062b90a41fde13cdf32ea7fb212892c1c"
+    },
+    {
+      "path": "gallery-practice-v2.js",
+      "bytes": 9890,
+      "sha256": "cc527aa14c5e84535fb98ca638edadd98f76b1d762ea0cd36f768ac8c2e01842"
+    },
+    {
+      "path": "onboarding.js",
+      "bytes": 4399,
+      "sha256": "07d337ca24c625403821d52d7ff517f79f94ff07cc4646319b00b8ad22620ae6"
+    },
+    {
+      "path": "display/ivan/swim.webp",
+      "bytes": 241338,
+      "sha256": "6ab811366eca05990397edf8d270a6fe40aa22929896675a1346ccf4c77c91d4"
+    },
+    {
+      "path": "display/boo/swim.webp",
+      "bytes": 192190,
+      "sha256": "3d0290e189e19f95525d9bb631438b68a01a12509bd29935a175f1c93608a75c"
+    },
+    {
+      "path": "display/ivan/live-under-water.webp",
+      "bytes": 181202,
+      "sha256": "262e0cc63c6ff1bcaa748015ec1b3d150bab6541be004e7adcdc3d414618dc12"
+    },
+    {
+      "path": "display/boo/live-under-water.webp",
+      "bytes": 233260,
+      "sha256": "b7a627646863e846460527f5368c3045826814b109f53b3e8c2b00ca110f980f"
+    },
+    {
+      "path": "display/ivan/play-football.webp",
+      "bytes": 126388,
+      "sha256": "39563069ebbb443333050eb2af8303709d359839ae6ab0989845e51574ddadb5"
+    },
+    {
+      "path": "display/boo/play-football.webp",
+      "bytes": 154840,
+      "sha256": "98cfbb9ebc5441edfdfb29067b899c15ad9c6612bb1787a68fd2ececf70f475b"
+    },
+    {
+      "path": "display/ivan/play-the-piano.webp",
+      "bytes": 128350,
+      "sha256": "9a2f63896439f4600fbb54ea7f822aac09f759dc490176404dfe728bf528e862"
+    },
+    {
+      "path": "display/boo/play-the-piano.webp",
+      "bytes": 126902,
+      "sha256": "a343bcf8600969ae311948eba11d7bca59b59abc6218ee5950a32a22558be3fb"
+    },
+    {
+      "path": "display/ivan/play-basketball.webp",
+      "bytes": 110004,
+      "sha256": "7515412aad0abe59fb0d664aab4cd0180c2f635b1ed85687198af5a053240bee"
+    },
+    {
+      "path": "display/boo/play-basketball.webp",
+      "bytes": 114194,
+      "sha256": "58c2a97c57b8cf51981cdd787bb85f235a76b05d5929e937f8eb4bbd00906c9c"
+    },
+    {
+      "path": "display/ivan/play-the-guitar.webp",
+      "bytes": 127692,
+      "sha256": "2fd3f643a90ec09d4324401438c989d133907cea9f59a795bbd8522b03da630a"
+    },
+    {
+      "path": "display/boo/play-the-guitar.webp",
+      "bytes": 146276,
+      "sha256": "6e9d428f1f66310110be260c6851eff79a8edc987b886392308e4f4154c5b693"
+    },
+    {
+      "path": "display/ivan/speak-Russian.webp",
+      "bytes": 111038,
+      "sha256": "6fbb8435a6feab8efd6f8bac3b633ce5be083154555936fef808e2dc28d92017"
+    },
+    {
+      "path": "display/boo/speak-Russian.webp",
+      "bytes": 98060,
+      "sha256": "45d53d744bef696ea2c19bbbc6c5ad644d862395785322c19cbc46222b905502"
+    },
+    {
+      "path": "display/ivan/talk-to-spiders.webp",
+      "bytes": 111360,
+      "sha256": "d2b1b05d75734b82c2d9d69166ac3706ba4713254eeb66c673f73270cb25c45d"
+    },
+    {
+      "path": "display/boo/talk-to-spiders.webp",
+      "bytes": 135336,
+      "sha256": "af219024c498b5230475bfde9dfc0a2f98b22b0c8606cb7ef182da2569f2880d"
+    },
+    {
+      "path": "display/ivan/climb.webp",
+      "bytes": 198306,
+      "sha256": "27fabc2c7088caef90a08263a8e36d7886557bd0a67ce6559baf0a45a87d27b8"
+    },
+    {
+      "path": "display/boo/climb.webp",
+      "bytes": 167736,
+      "sha256": "00c05287146ff96c80a9c3ff8e245d6fcf1402fa9b5811ecfe254ea08d87c5bb"
+    },
+    {
+      "path": "display/ivan/run-fast.webp",
+      "bytes": 97868,
+      "sha256": "5ecf70b7d498355f3cf821026792b72be68421ffda8f2a84ebeabd59e90512ac"
+    },
+    {
+      "path": "display/boo/run-fast.webp",
+      "bytes": 95856,
+      "sha256": "5ee13da805fb98b525e00fc7569612bc6148e05b64371947ed66b804fe5737ac"
+    },
+    {
+      "path": "display/ivan/fly.webp",
+      "bytes": 85580,
+      "sha256": "e9f902f6480944f53d8a06c5e3727dbcc1f28d5b6c1c5c12705dd5af48e18ecf"
+    },
+    {
+      "path": "display/boo/fly.webp",
+      "bytes": 97022,
+      "sha256": "8d730529b9460799d286a867aa0f1a8a37f73af98c0f97501b188e1da56057b0"
+    },
+    {
+      "path": "display/ivan/take-a-selfie.webp",
+      "bytes": 117370,
+      "sha256": "4898cdf130ccd7b0159e0a919837ed94a9052eefe2b4a60883c2a7588f1f1d2e"
+    },
+    {
+      "path": "display/boo/take-a-selfie.webp",
+      "bytes": 155444,
+      "sha256": "8fe55e8f341de1900c36cc5d04bf43c4cb7c86bd4acfc3083386cf766c8be637"
+    },
+    {
+      "path": "display/ivan/see-at-night.webp",
+      "bytes": 133732,
+      "sha256": "480561b0e4b42d183d582f18d87e70a42ad2bab82c2ee50d81b36ac9cafd53a3"
+    },
+    {
+      "path": "display/boo/see-at-night.webp",
+      "bytes": 126386,
+      "sha256": "5a50ed75d0ef46dab3fa77ed8957582bee8f21543187d0ec16f4b77ec98272d9"
+    },
+    {
+      "path": "display/ivan/live-without-food.webp",
+      "bytes": 126934,
+      "sha256": "7c760edeae1ee4111447c486063b3570075d6874979afac1bfce7ebf012709b2"
+    },
+    {
+      "path": "display/boo/live-without-food.webp",
+      "bytes": 142218,
+      "sha256": "20aefacd7cbe11372a1ac11e758a9ee846233f787e280d3ab8cf8b19b2d2fdf3"
+    },
+    {
+      "path": "display/ivan/ride-a-bike.webp",
+      "bytes": 119552,
+      "sha256": "a33f540cdf9b7bd0b2fdc1e1905a427a60ff775030c589660c3e6ecea57921c1"
+    },
+    {
+      "path": "display/boo/ride-a-bike.webp",
+      "bytes": 159072,
+      "sha256": "dc56c09eecddf29aa1e357f5b4c1d9eab78bfec7392d1b2adb328f6c7ee279b1"
+    },
+    {
+      "path": "display/ivan/eat-flowers.webp",
+      "bytes": 126150,
+      "sha256": "e3163ec4c48b3a923dd9a2f420610c54d3b0110907a3d20d13562195a3a669f5"
+    },
+    {
+      "path": "display/boo/eat-flowers.webp",
+      "bytes": 136184,
+      "sha256": "d3af01552c09e7c6e39bfeb95b274012197c8abaffa7f5dddf504fc7b501c946"
+    },
+    {
+      "path": "assets/story/intro-ivan-bongo.webp",
+      "bytes": 117370,
+      "sha256": "4898cdf130ccd7b0159e0a919837ed94a9052eefe2b4a60883c2a7588f1f1d2e"
+    },
+    {
+      "path": "assets/story/intro-watch.webp",
+      "bytes": 187682,
+      "sha256": "22f2d91830f73b06a60b2eee4e4052b7a62e343a318e31bf53d299c306a6e6f0"
+    },
+    {
+      "path": "assets/story/intro-boo.webp",
+      "bytes": 120926,
+      "sha256": "8428de55e41ccab1b24bdaae7c87d346355ecc3e8dddeae00a3adb87d98bc3d7"
+    },
+    {
+      "path": "assets/story/intro-boast.webp",
+      "bytes": 214184,
+      "sha256": "1255a54e5cd12de171811f7299695459c8412459a87cbca4354a54d09fb00a7b"
+    },
+    {
+      "path": "assets/story/intro-cut-approved.webp",
+      "bytes": 161732,
+      "sha256": "d719588f688c267d53d9fdaf448eed6fcd5ce74586935c0e98574e705afeb2e6"
+    },
+    {
+      "path": "assets/story/comic-1.webp",
+      "bytes": 241086,
+      "sha256": "7e70dc422c419dd9299f5d4a6c9a825e61fd0c41cfe9fcfae937c25212bb870e"
+    },
+    {
+      "path": "assets/story/comic-2.webp",
+      "bytes": 269456,
+      "sha256": "188945960a3c4d318590cf55684f56cad76c7072e7f9e337f1849c9abc8f5055"
+    },
+    {
+      "path": "assets/story/comic-3-v2.webp",
+      "bytes": 258628,
+      "sha256": "f033e97823e6b3bb3ccbfa539b1ab4cc347ebdc05e181eb6d4ca83828c9009a1"
+    },
+    {
+      "path": "assets/story/comic-4-v7.webp",
+      "bytes": 325900,
+      "sha256": "0a4e20b1cce794bb0811253bccfc52d717e2f822208ed62a55493fcef3ddde36"
+    },
+    {
+      "path": "assets/story/comic-5.webp",
+      "bytes": 366632,
+      "sha256": "a44c7f99acf2aaf945f3de1b8b2ef6c9e753e4f36a12b82843a87d2aa2bd2868"
+    },
+    {
+      "path": "assets/story/lights-fixed.webp",
+      "bytes": 125568,
+      "sha256": "1637e573253453303b86cd7813894980fb4a86bd9562d21f44c13420f2ab9879"
+    },
+    {
+      "path": "assets/story/award-hosts.webp",
+      "bytes": 164058,
+      "sha256": "8eb827f2316bf2062452aa7ea0d4207076c9f6a905fab19441ec9ab28e38653c"
+    },
+    {
+      "path": "assets/story/certificate-illustrated.webp",
+      "bytes": 177600,
+      "sha256": "f8219fa39cf11357a889913d0e0eb88b3843e26e22689c7d5e7e93cdf0876310"
+    }
+  ]
+}
